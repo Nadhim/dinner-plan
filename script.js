@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yay! Call me at 7.15!";
   gif.src =
-    "https://media1.tenor.com/m/pJyEFbnrBoUAAAAC/dance-funny.gif";
+    "./dance-funny.gif";
 });
 
 // noBtn.addEventListener("mouseover", () => {
@@ -25,5 +25,5 @@ yesBtn.addEventListener("click", () => {
 noBtn.addEventListener("click", () => {
   question.innerHTML = "I hate you!";
   gif.src =
-    "https://media1.tenor.com/m/VSnf9sNntYUAAAAC/crying-boy-crying.gif";
+    "./crying-boy-crying.gif";
 });
